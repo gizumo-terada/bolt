@@ -1,9 +1,15 @@
 @charset "UTF-8";
 
-
 .inner {
   width: 1100px;
   margin: 0 auto;
+  text-align: center;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
 header {
@@ -38,9 +44,9 @@ header {
 }
 
 .title_bolt {
- width: 100%;
- padding: 250px 0 250px 0;
- background-color: #f2f2f2;
+width: 100%;
+padding: 250px 0 250px 0;
+background-color: #f2f2f2;
 }
 
 .title_bolt-theme {
@@ -54,10 +60,6 @@ header {
   font-size: 30px;
 }
 
-.inner {
-  text-align: center;
-}
-
 .green-wrapper {
   width: 100%;
   padding-top: 50px;
@@ -67,11 +69,6 @@ header {
   background-color: #74cfae
 }
 
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both;
-}
 
 .iphone_img {
   float: left;
@@ -207,11 +204,11 @@ nav {
 
 .fab {
   font-size: 40px;
- }
+}
 
- .fas {
+.fas {
   font-size: 40px;
- }
+}
 
 .icon_btn-wrapper {
   width: 100%;
@@ -246,4 +243,87 @@ footer {
   padding: 20px 0 25px 0;
   color: #ffffff;
   background-color: #74cfae
+}
+
+@media (max-width:1199px) {
+
+  .inner {
+    width: 97%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .iphone_img {
+    clear: left;
+    /* display: inline-block;
+    margin: 0 auto; */
+    text-align: center;
+    padding-bottom: 20px; 
+  }
+
+  .center {
+    margin: 0 auto;
+  }
+
+  .green-wrapper-theme-inner {
+    text-align: center;
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .work-content {
+    clear: left;
+    margin-left: 0;
+  }
+
+  .work-content:nth-child(n+4) {
+    margin-top: 0;
+  }
+
+.white-wrapper_center {
+  width: 90%;
+}
+
+  .white-wrapper_text {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .white-wrapper_btn {
+    float: none;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .black-wrapper {
+    margin: 0 auto;
+  }
+
+  .black-wrapper_src {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 80px; 
+  }
+
+  /* .ourskills-icon {
+    margin: 0 auto;
+  } */
+}
+
+
+@media (max-width:767px) {
+
+  .inner {
+    width: 97%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact_btn {
+    padding: 10px;
+    border:1px solid #ddd;
+    border-radius: 4px;
+  }
 }
