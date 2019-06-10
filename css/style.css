@@ -27,19 +27,18 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1;
+  text-align: center;
   background-color: #ffffff;
 }
 
 .fa-bolt {
   margin: 0 auto;
-  padding: 15px 0 15px 0;
   float: left;
   color: #4e4e4e;
 }
 
 .contact_btn {
   width: 50px;
-  margin: 12px 0 14px 0;
   padding: 14px 12px;
   float: right;
   font-size: 12px;
@@ -243,12 +242,10 @@ nav {
 
 footer {
   width: 100%;
-  height: 65px;
   background-color: #74cfae;
 }
 
 .footer_text {
-  padding: 20px 0 25px 0;
   float: right;
   font-size: 16px;
   color: #ffffff;
@@ -256,6 +253,10 @@ footer {
 }
 
 @media (max-width:1500px) {
+
+  .header-inner {
+    margin: 12px 0 14px 0;
+  }
 
   .title-inner{
     padding: 250px 0 250px 0;
@@ -271,6 +272,10 @@ footer {
 
   .black-inner {
     padding: 70px 0 100px 0; 
+  }
+
+  .footer-inner {
+    padding: 20px 0 25px 0;
   }
 }
 
