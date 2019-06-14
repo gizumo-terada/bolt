@@ -108,7 +108,6 @@ background-color: #f2f2f2;
 
 .white-wrapper_center {
   margin: 0 auto;
-  margin-top: 90px;
 }
 
 .white-wrapper_title {
@@ -208,6 +207,10 @@ footer {
     margin: 12px 0 14px 0;
   }
 
+  .hamberger {
+    display: none;
+  }
+
   .contact_btn {
     width: 50px;
     padding: 14px 12px;
@@ -273,6 +276,7 @@ footer {
 
   .white-wrapper_center {
     width: 730px;
+    margin-top: 90px;
   }
   
   .work-content_normal {
@@ -317,6 +321,10 @@ footer {
 
     .header-inner {
       margin: 12px 0 14px 0;
+    }
+
+    .hamberger {
+      display: none;
     }
 
     .contact_btn {
@@ -365,6 +373,11 @@ footer {
 
     .white-inner {
       padding: 60px 0 70px 0;
+    }
+
+    .white-wrapper_center {
+      width: 730px;
+      margin-top: 80px;
     }
 
     .white-wrapper_text {
@@ -416,26 +429,20 @@ footer {
     padding: 160px 0 130px 0;
   }
 
-  .contact_btn {
+  .hamberger  {
     border: 1px solid #ddd;
     width: 30px;
-    height: 20px;;
+    height: 20px;
     padding: 10px;
     border-radius: 4px;
     float: right;
   }
 
-  .contact_btn span {
+  .hamberger span {
+    margin-bottom: 5px; 
     border: 1px solid #ddd;
+    height: 1px;
     display: block;
-  }
-
-  .contact_btn span::before {
-    bottom: -4px;
-  }
-
-  .contact_btn span::after {
-    bottom: -8px;
   }
 
   .contact_btn-text {
@@ -465,6 +472,10 @@ footer {
 
   .white-inner {
     padding: 60px 0 70px 0;
+  }
+
+  .white-wrapper_center {
+    margin-top: 80px;
   }
 
   .white-wrapper_text {
